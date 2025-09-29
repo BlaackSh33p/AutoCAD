@@ -1,0 +1,6 @@
+Component,Type,X,Y,Connection
+S1,Switch,10,10,L1
+L1,Light,30,10,S1
+S2,Switch,10,30,L2
+L2,Light,30,30,S2
+DB1,DistributionBoard,0,20,S1
